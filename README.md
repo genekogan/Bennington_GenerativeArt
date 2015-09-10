@@ -1,4 +1,4 @@
 Code for Generative art course at Bennington College, fall 2015.
 
-More documentation coming soon.
+As more material is added weekly to this repository, an outline will be developed to navigate through the code and placed here.
 
