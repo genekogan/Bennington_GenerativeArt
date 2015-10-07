@@ -20,4 +20,5 @@ function chakraBlade(x) {
   fill(random(255));
   rotate(mouseX*0.008);
   ellipse(noise(x), 80, 10, 200);
+  triangle(x, 4*x, 2*x, 3*x, 2*x, 6*x);
 }  
