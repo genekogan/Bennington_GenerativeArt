@@ -32,14 +32,14 @@ function draw() {
   }
   
   // after creating a permutation, let's draw lines connecting them
-  for (var i=0; i<lastPermutationPoint; i++) {
+  for (i=0; i<lastPermutationPoint; i++) {
     var index1 = permutation[i];
     var index2 = permutation[i+1];
     line(points[index1].x, points[index1].y, points[index2].x, points[index2].y);
   }
   
   // every 60 frames, increment lastPermutationPoint
-  if (frameCount % 60 == 0) {
+  if (frameCount % 60 === 0) {
     lastPermutationPoint += 1; 
     // make sure to constrain lastPermutationPoint to the length of permutations
     lastPermutationPoint = constrain(lastPermutationPoint, 0, permutation.length-1);  
