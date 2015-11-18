@@ -1,4 +1,4 @@
- Using### Assignment week 3
+### Assignment week 3
 
 
 There are two simple assignments this week.
